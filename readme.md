@@ -1,6 +1,6 @@
 ![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
-# 'Sign up' website project
+# 'Sign up' website project (grass)
 
 This project is for educational porpuses only.
 

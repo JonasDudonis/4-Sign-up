@@ -11,4 +11,5 @@ Design: [Sign up](https://cdn.discordapp.com/attachments/648536139677958156/6488
 
 ## Project features:
 - CSS components
-- multi-page
+- Multi-page
+**- folder structure (no html files showing in address bar)**

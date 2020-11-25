@@ -1,5 +1,5 @@
 body {
-    background-color: #3AB8DB;
+    background-color: #777777;
 }
    .background {
         display: inline-block;
@@ -7,11 +7,11 @@ body {
         /* height: 100vh; - elemento aukstis priklauso nuo monitoriaus dydzio */
         /* pazaisti su height */
         height: 100vh;
-        background-image: url(../img/kalnas.jpg);
+        background-image: url(../img/bear.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        filter: blur(40px);
+        filter: blur(30px);
    }
         main {
             display: inline-block;
@@ -34,8 +34,8 @@ body {
             top: 30px;
             bottom: 30px;
             color: #fff;
-            background-color: darkblue;
-            background-image: url(../img/kalnas.jpg);
+            background-image: url(../img/bear.jpg);
+            background-color: blue;
             /* jeigu yra savybe 'background-size: cover', savybe 'background-repeat' praranda prasme, nes esant 'cover'reiksmei, nuotrauka uzima visa plota */
             background-repeat: no-repeat;
             /* background-size: cover; -> apima visa stulpelio dydi both per width ir height */
@@ -55,6 +55,7 @@ body {
 
             h1 {
                 text-align: center;
+                font-size: 42px;
             }
 
             footer {
@@ -83,62 +84,4 @@ body {
                 font-family: 'Times New Roman', Times, serif;
                 
             }
-            .form {
-                display: inline-block;
-                width: 100%;
-            }
-                .form-row {
-                    display: inline-block;
-                    width: 100%;
-                }
-
-            .form-row + .form-row {
-                margin-top: 40px;
-                        
-                }
-                    label {
-                    display: inline-block;
-                    width: 100%;
-                    text-transform: uppercase;
-                    font-size: 15px;
-                    line-height:20px;
-                    font-weight: 700;
-                    color: #777;
-                    }
-
-                    input {
-                        display: inline-block;
-                        width: 100%;
-                        border: none;
-                        font-size: 18px;
-                        color: #000;
-                        border-bottom: 1px solid #777;
-                        line-height: 40px;
-
-                    }
-                    .btn {
-                        display: inline-block;
-                        float: left;
-                        padding: 10px;
-                        padding-left: 40px;
-                        padding-right:40px;
-                        background-color: #0659B3;
-                        color: #fff;
-                        border-radius: 20px;
-                        font-size: 20px;
-                        line-height: 20px;
-                    }
-                    .form-row > span {
-                        display: inline-block;
-                        float: left;
-                        padding: 10px;
-                        line-height: 20px;
-                        font-size: 20px;
-                    }
-                    .form-row > a {
-                        display: inline-block;
-                        float: left;
-                        padding: 10px;
-                        line-height: 20px;
-                        font-size: 20px;
-                    }
+ 
